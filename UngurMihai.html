@@ -1,0 +1,88 @@
+<html>
+<head>
+<title>Ungur Mihai Petre</title>
+</head>
+<style>
+body {
+background-color: lightblue;
+}
+#nume {
+color:green;}
+
+#prenume{color:red;}
+#Email { color:purple;}
+#citat { color:orange;}
+table, th, td {
+  border: 1px solid black;
+} 
+#hobby { border: 4px solid red;}
+.p1{font-family: "Times New Roman", Times, serif;}
+.p2{font-family: "Lucida Console", "Courier New", monospace;}
+h1 { font-size: 40px;}
+h2 { font-size: 20px;}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  opacity: 0.8;
+  border-radius:25px;
+}
+</style>
+<script>
+function myFunction() {
+  document.getElementById("p1").innerHTML = "Programator";
+  document.getElementById("p2").innerHTML = "Ungur Mihai ";
+  document.getElementById("p3").src = "pozaMihai2.jpg";
+  document.getElementById("myTable").rows[0].cells[0].innerHTML=":)";
+  document.getElementById("myTable").rows[0].cells[1].innerHTML=":)";
+  document.getElementById("myTable").rows[1].cells[0].innerHTML="Realizare"
+  document.getElementById("myTable").rows[1].cells[1].innerHTML="Am descoperit un limbaj nou de programare";
+  document.getElementById("myTable").rows[2].cells[0].innerHTML="Experienta";
+  document.getElementById("myTable").rows[2].cells[1].innerHTML="Voluntariat";
+  document.getElementById("myTable").rows[3].cells[0].innerHTML="Realizare";
+  document.getElementById("myTable").rows[3].cells[1].innerHTML="Am studiat in alta tara prin Erasmus";
+  document.body.style.backgroundColor = "lightgreen";
+  document.getElementById("p1").style.color = "blue";
+  document.getElementById("p2").style.color = "red";
+  }
+</script>
+<body>
+<h1 id="p1" >Nume: Ungur</h1>
+<h2 id="p2" >Prenume: Mihai Petre</h2>
+<h1 class="p1" id="Email">Email: ungur.al.mihai@student.utcluj.ro</h1>
+
+<img id="p3"src="pozaMihai.jpg" alt="Poza Mihai">
+<h2 class="p2" id="citat">“Oamenii învață învățând pe alții.”</h2>
+<button type="button" onclick="myFunction()">Alta viata</button>
+
+
+<table id="myTable" >
+  <tr>
+    <th>Disciplina</th>
+    <th>Link</th>
+	<th>an</th>
+  </tr>
+  <tr>
+    <td>Grafica asistata de calculator</td>
+    <td><a href="https://etti.utcluj.ro/files/FiseDisciplina/EaRo/15.pdf">https://etti.utcluj.ro/files/FiseDisciplina/EaRo/15.pdf</td>
+	<td>II</td>
+    </tr>
+  <tr>
+    <td>Circuite electronice fundamentale </td>
+    <td> <a href="https://etti.utcluj.ro/files/FiseDisciplina/EaRo/20.pdf">https://etti.utcluj.ro/files/FiseDisciplina/EaRo/20.pdf</a> </td>
+	<td>II</td>
+  </tr>
+  <td>Televiziune</td>
+  <td><a href="https://etti.utcluj.ro/files/FiseDisciplina/EaRo/45.pdf">https://etti.utcluj.ro/files/FiseDisciplina/EaRo/45.pdf</td>
+  <td>IV</td>
+  </tr>
+</table>
+<p id="hobby">Hobby:</p>
+<ul id="hobby">
+  <li>fotbal </li>
+  <li>fitness </li>
+  <li>sa calatoresc </li>
+</ul>
+</body>
+</html>
