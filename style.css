@@ -1,0 +1,16 @@
+img {
+  width: 270px;
+  margin: auto;
+  border: 1px solid red;
+}
+h2 {font-family: "Times New Roman", Times, serif;
+color: blue ;}
+h3 {font-family: "Times New Roman", Times, serif;
+color: red; }
+h4 {
+font-family: "Lucida Console", "Courier New", monospace;
+color: yellow; }
+body{ background-color: grey;}
+table , td,tr,th {border-style: dotted;}
+li {border-style: solid ;}
+ul{border style: double;}
